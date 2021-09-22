@@ -18,7 +18,14 @@ namespace Factorial
             //catch the input from user
             number = int.Parse(Console.ReadLine());
 
+            //continue the program until i is equal or less than number
+            for(i=1; i<= number; i++)
+            {
+                fact = fact * i;
 
+            }
+            //print the factorial number
+            Console.Write("Factorial of " + number + " is " + fact);
 
         }
     }
