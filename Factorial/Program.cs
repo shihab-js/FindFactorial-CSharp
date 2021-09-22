@@ -12,6 +12,13 @@ namespace Factorial
             //declare the necessary variables
             int i, fact = 1, number;
 
+            //print the message to show user
+            Console.Write("Please Enter any Number: ");
+
+            //catch the input from user
+            number = int.Parse(Console.ReadLine());
+
+
 
         }
     }
